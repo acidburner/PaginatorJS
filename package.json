@@ -1,0 +1,25 @@
+{
+  "name": "paginatorjs",
+  "version": "1.0.0",
+  "description": "Basic pagination creator that takes in arbitrary data, or html nodes, and renders them in a container.",
+  "main": "PaginatorJS.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acidburner/PaginatorJS.git"
+  },
+  "keywords": [
+    "Pagination",
+    "Paginator",
+    "Paged",
+    "Data"
+  ],
+  "author": "Jeff Kelly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acidburner/PaginatorJS/issues"
+  },
+  "homepage": "https://github.com/acidburner/PaginatorJS#readme"
+}
