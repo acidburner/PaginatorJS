@@ -21,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/acidburner/PaginatorJS/issues"
   },
-  "homepage": "https://github.com/acidburner/PaginatorJS#readme"
+  "homepage": "https://github.com/acidburner/PaginatorJS#readme",
+  "dependencies": {
+    "eslint": "^4.11.0",
+    "grunt": "^1.0.1",
+    "mocha": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
