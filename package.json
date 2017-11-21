@@ -1,10 +1,13 @@
 {
     "name": "paginatorjs",
     "version": "1.0.0",
-    "description": "Basic pagination creator that takes in arbitrary data, or html nodes, and renders them in a container.",
+    "description": "This was more of a project to learn the js ecosystem. Otherwise it's a basic pagination creator that takes in arbitrary data, or html nodes, and renders them in a container.",
     "main": "index.js",
     "scripts": {
-        "test": "mocha --require babel-register"
+        "test": "mocha --require babel-register",
+        "browserfy": "browserfy",
+        "eslint": "eslint",
+        "grunt": "grunt"
     },
     "repository": {
         "type": "git",
@@ -33,9 +36,11 @@
     "devDependencies": {
         "babel-cli": "^6.26.0",
         "babel-preset-env": "^1.6.1",
+        "babelify": "^8.0.0",
         "bootstrap": "^3.3.7",
         "grunt-babel": "^7.0.0",
         "grunt-browserify": "latest",
+        "grunt-contrib-sass": "^1.0.0",
         "grunt-contrib-watch": "latest",
         "grunt-eslint": "latest",
         "sass": "^1.0.0-beta.3"
